@@ -1,0 +1,19 @@
+.navbar {
+    background-color: var(--primary-color);
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .nav-item {
+    color: var(--secondary-color);
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .nav-item:hover {
+    color: var(--warning-color);
+    text-decoration: underline;
+  }
+  
